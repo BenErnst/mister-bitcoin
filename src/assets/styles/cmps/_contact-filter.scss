@@ -1,0 +1,18 @@
+.contact-filter-form {
+    // background-color: rgb(170, 157, 157);
+    width: 17%;
+    margin: auto;
+    padding: 10px;
+    .input-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        label {
+            font-family: Georgia;
+        }
+        input {
+            background-color: rgb(221, 221, 221);
+        }
+    }
+}

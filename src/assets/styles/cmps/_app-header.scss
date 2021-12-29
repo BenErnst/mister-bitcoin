@@ -1,0 +1,17 @@
+.app-header-container {
+    background: #4a555a;
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0px -6px 20px 0px #2d2d2d;
+    border-radius: 0 0 30px 30px;
+    .main-logo {
+        margin: 15px auto;
+        font-weight: 500;
+    }
+    nav {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}

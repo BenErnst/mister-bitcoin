@@ -1,0 +1,39 @@
+.contact-preview-container {
+    background-color: $clr2;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: inset 0px 0 20px 0 #2d2d2d;
+    &:hover {
+        opacity: 0.8;
+        .edit-link {
+            opacity: 1;
+        }
+    }
+    .details-link {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100px;
+        .contact-avatar {
+            transform: scale(0.6);
+            margin-top: -22px;
+        }
+        strong {
+            align-self: center;
+            font-size: 18px;
+            margin-right: 40px;
+            text-align: center;
+        }
+    }
+    .edit-link {
+        font-family: Cambria;
+        font-weight: 600;
+        color: rgba(211, 183, 122, 0.699);
+        opacity: 0;
+        transition: opacity 0.4s;
+    }
+}
